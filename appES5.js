@@ -24,9 +24,9 @@ UI.prototype.addCourseToList = function (course) {
 }
 
 UI.prototype.clearControls = function () {
-    const title = document.getElementById('title').value = "";
-    const instructor = document.getElementById('instructor').value = "";
-    const image = document.getElementById('image').value = "";
+    document.getElementById('title').value = "";
+    document.getElementById('instructor').value = "";
+    document.getElementById('image').value = "";
 }
 
 UI.prototype.deleteCourse = function (element) {
